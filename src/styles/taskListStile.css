@@ -1,0 +1,127 @@
+
+.task-item {
+    box-sizing: border-box; 
+    overflow: hidden; 
+} 
+
+.taskBox {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    width: 100%;
+    height: 160px;
+    padding-top: 30px;
+    border-radius: 100px 100px 500px 500px;
+    background-color: rgba(63, 60, 60, 0.466);
+}
+
+.calendar {
+    margin-top: 30px;
+}
+
+.boxTask {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.inputTaskBox {
+    height: 30px;
+    width: 90%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.task {
+    margin-top: 43px;
+    margin-left: 5%;
+    width: 90%;
+    min-height: 150px; 
+    background: linear-gradient(90deg, #282928, #6f756f);
+    border-radius: 10px;
+    position: relative;
+    color: rgb(167, 201, 180);
+}
+
+.taskText {
+    width: 90%;
+    min-height: 50px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px; 
+    box-sizing: border-box; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    text-align: center; 
+}
+
+.positionData {
+    color: rgb(255, 255, 255);
+    width: 95%;
+    bottom: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;   
+}
+
+.buttonPositioh {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    justify-content: space-between;
+    bottom: -40PX;
+}
+
+.timeDataBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 10px;
+}
+
+.inputData {
+    width: 35%;
+    border-radius: 5px 0px 0px 5px;
+    height: 30px;
+}
+
+.inputTime {
+    width: 15%;
+    border-radius: 0px 5px 5px 0px;
+    height: 30px;
+}
+
+.endeTask {
+    width: 30%;
+}
+
+.midlContainer {
+    width: 60%;
+}
+
+.taskLiskBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100% 
+}
+
+.taskSo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.taskKalendarBox {
+    width: 30%;
+}
+
+.butonAddTask {
+    z-index: 1;
+}

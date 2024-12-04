@@ -1,0 +1,38 @@
+
+.fulBody {
+    box-sizing: border-box;
+    display: flex;
+    margin-top: -121px;
+    background: linear-gradient(90deg, #000000, #7e807e);
+    width: 100%;
+    padding-bottom: 50px;
+    min-height: 1000px;
+    max-height: 100%;
+    justify-content: space-between;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+}
+
+button {
+    background: linear-gradient(90deg, #134e15, #5e8a60);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+  
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    color: #52af55;
+}
+
+  

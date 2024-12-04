@@ -1,0 +1,29 @@
+.buttonPositioh button:last-child {
+    background-color: #4caf50; 
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.buttonPositioh button:last-child:hover {
+    background-color: #45a049;
+}
+
+.completed-task {
+    color: aliceblue;
+    padding-left: 3%;
+    background-color: rgb(42, 48, 48);
+    border-radius: 10px;
+}
+
+.dataEndeTask {
+    color: #45a049;
+    width: 100%;
+}
+
+.textEndeTask {
+    padding-top: 10px;
+}
+  
